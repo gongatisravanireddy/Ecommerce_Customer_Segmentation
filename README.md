@@ -237,7 +237,7 @@ The program performs customer segmentation using K-Means and generates the clust
 
 ## Dashboard Preview
 
-![E-Commerce Customer Segmentation Dashboard](screenshots/dashboard.png)
+![E-Commerce Customer Segmentation Dashboard](Screenshots/dashboard.png)
 
 ## Conclusion
 
