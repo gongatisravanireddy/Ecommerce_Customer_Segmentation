@@ -300,3 +300,59 @@ Power BI Dashboard
 
 Business Insights
 
+
+Business Insights
+The dashboard can help identify:
+- High-value customer groups
+- Customers with lower purchasing activity
+- Products generating higher sales
+- Countries contributing significantly to revenue
+- Changes in monthly sales performance
+These insights can support targeted marketing, customer retention, product planning, and sales strategies.
+
+Business Decisions
+Based on the analysis, businesses can:
+- Target high-value customer groups with personalized offers
+- Re-engage customers with low recent activity
+- Promote high-performing products
+- Plan inventory based on product demand
+- Focus marketing efforts on important markets
+- Use different strategies for different customer segments
+
+Ecommerce_Customer_Segmentation/
+│
+├── output/
+│   ├── RFM_Table.csv
+│   └── Clustered_Customers.csv
+│
+├── screenshots/
+│   └── dashboard.png
+│
+├── main.py
+├── requirements.txt
+├── .gitignore
+└── README.md
+
+Technologies Used
+- Python
+- Pandas
+- Scikit-learn
+- K-Means Clustering
+- StandardScaler
+- Microsoft Power BI
+- Power Query
+- RFM Analysis
+How to Run Python Code
+1. Install the required libraries
+pip install -r requirements.txt
+
+2. Run the Python program
+python main.py
+
+The program performs customer segmentation using K-Means and generates the clustered customer output.
+Dashboard Preview
+ 
+Conclusion
+This project combines Business Intelligence and Machine Learning to analyze e-commerce sales and customer behavior.
+Power BI is used for data cleaning, revenue analysis, RFM analysis, visualization, and dashboard development, while Python is used for customer segmentation using K-Means clustering.
+The resulting dashboard provides an interactive way to understand sales performance and customer segments and supports data-driven business decisions.
